@@ -28,6 +28,7 @@ defmodule Fantasy.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [ {:httpoison, "~> 0.9.0"},
-      {:floki, "~> 0.10.1"}]
+      {:floki, "~> 0.10.1"},
+      {:poison, "~> 2.0"} ]
   end
 end
